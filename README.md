@@ -1,6 +1,11 @@
 # poc-azure-terraform
 
 
-choco upgrade git.install
+# install/upgrade git client
+`choco upgrade git.install`
 
+# install/upgrade vscode
 choco upgrade vscode
+
+# install/upgrade vscode extensions
+
