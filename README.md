@@ -1,6 +1,6 @@
 # poc-azure-terraform
 
-## Environment Setup
+## Workstation Setup
 
 ##### install an operating system
 ```
@@ -33,3 +33,10 @@ code --install-extension mauve.terraform
 ```
 choco upgrade terraform
 ```
+
+## Azure Setup
+Create an Azure Service Principal (if you don't already have one defined in your subscription) following the steps here:
+
+https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html
+
+Record the values that are returned for `appId` (client_id), `password` (client_secret), and `tenant` (tenant_id) for use in the examples that follow.
