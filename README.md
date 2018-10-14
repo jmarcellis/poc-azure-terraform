@@ -2,22 +2,22 @@
 
 ## Environment Setup
 
-#### install an operating system
+##### install an operating system
 ```
 # wait, how are you reading this?
 ```
 
-#### install package management - chocolatey
+##### install package management - chocolatey
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-#### install source control client - git
+##### install source control client - git
 ```
 choco upgrade git.install
 ```
 
-#### install development environment - vscode
+##### install development environment - vscode
 ```
 # install vscode editor
 choco upgrade vscode
@@ -29,7 +29,7 @@ choco upgrade vscode-powershell
 code --install-extension mauve.terraform
 ```
 
-#### install provisioning tool - terraform
+##### install provisioning tool - terraform
 ```
 choco upgrade terraform
 ```
