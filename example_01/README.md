@@ -2,7 +2,10 @@
 
 #### initialize environment
 ```
+# initialize environment variables
 Initialize-TerraformEnvironment.ps1 -Azure -TenantID '<azure_tenant_id>' -SubscriptionID '<azure_subscription_id>' -ClientID '<azure_client_id>' -ClientSecret '<azure_client_secret>'
+
+# initialize terraform in current directory
 terraform init
 ```
 
