@@ -20,6 +20,6 @@ terraform apply
 
 #### de-provision vm and related resources
 ```
-# remove resource
+# remove resources
 terraform destroy
 ```

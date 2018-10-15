@@ -35,7 +35,7 @@ terraform apply
 # change into terraform directory where configuration files exist
 cd .\terraform\vm
 
-# remove resource
+# remove resources
 terraform destroy
 ```
 
@@ -44,6 +44,6 @@ terraform destroy
 # change into terraform directory where configuration files exist
 cd .\terraform\network
 
-# remove resource
+# remove resources
 terraform destroy
 ```
