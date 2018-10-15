@@ -1,3 +1,0 @@
-*.tfstate
-lock.json
-terraform-provider*.exe
