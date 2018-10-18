@@ -34,6 +34,11 @@ code --install-extension mauve.terraform
 choco upgrade terraform
 ```
 
+#### install cloud cli - azure powershell
+```
+choco upgrade azurepowershell
+```
+
 ## Azure Setup
 Create an Azure Service Principal (if you don't already have one defined in your subscription) following the steps here:
 
